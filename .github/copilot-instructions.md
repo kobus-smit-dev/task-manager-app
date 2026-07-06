@@ -1,0 +1,7 @@
+- [ ] Verify Firebase credentials are set in `.env.local`
+- [ ] Run `npm install` to install dependencies
+- [ ] Run `npm run dev` to start development server
+- [ ] Test user registration and login
+- [ ] Test adding, completing, and deleting tasks
+- [ ] Push to GitHub repository
+- [ ] Deploy to Firebase Hosting or Netlify

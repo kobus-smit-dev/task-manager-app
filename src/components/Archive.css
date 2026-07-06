@@ -1,0 +1,180 @@
+.archive-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  min-height: calc(100vh - 80px);
+}
+
+.archive-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 16px;
+}
+
+.archive-header h2 {
+  margin: 0;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.archive-count {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.archive-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.archive-empty p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.archive-empty-hint {
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-size: 0.95rem;
+}
+
+.archive-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.archive-item {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+}
+
+.archive-item:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.archive-item-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.archive-item-text {
+  margin: 0 0 6px;
+  color: #0f172a;
+  font-size: 0.95rem;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.archive-item-description {
+  margin: 0 0 8px;
+  color: #475569;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.archive-item-meta {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+.archive-item-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.unarchive-btn,
+.archive-delete-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.unarchive-btn {
+  background: #14b8a6;
+  color: white;
+}
+
+.unarchive-btn:hover {
+  background: #0d9488;
+  transform: translateY(-1px);
+}
+
+.archive-delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.archive-delete-btn:hover {
+  background: #dc2626;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 640px) {
+  .archive-container {
+    padding: 20px;
+  }
+
+  .archive-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .archive-item-actions {
+    width: 100%;
+  }
+
+  .archive-item-actions button {
+    flex: 1;
+  }
+}
+
+.archive-search-box {
+  margin-bottom: 24px;
+  padding: 0 20px;
+}
+
+.archive-search-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid rgba(20, 184, 166, 0.3);
+  border-radius: 10px;
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.98);
+  color: #0f172a;
+  transition: all 0.2s;
+}
+
+.archive-search-input:focus {
+  outline: none;
+  border-color: #14b8a6;
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
+}
+
+.archive-search-input::placeholder {
+  color: #94a3b8;
+}
