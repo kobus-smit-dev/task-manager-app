@@ -11,7 +11,7 @@ function App() {
   const [user, setUser] = useState(null)
   const [loading, setLoading] = useState(true)
   const [showRegister, setShowRegister] = useState(false)
-  const [view, setView] = useState('list')
+  const [view, setView] = useState('kanban')
   const [showSettings, setShowSettings] = useState(false)
 
   useEffect(() => {
