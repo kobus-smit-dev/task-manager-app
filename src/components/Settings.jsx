@@ -4,7 +4,7 @@ import './Settings.css'
 function Settings({ onClose, userId }) {
   const [autoArchiveDays, setAutoArchiveDays] = useState(null)
   const [celebrationEnabled, setCelebrationEnabled] = useState(true)
-  const [defaultView, setDefaultView] = useState('list')
+  const [defaultView, setDefaultView] = useState('kanban')
 
   useEffect(() => {
     const saved = localStorage.getItem(`autoArchive_${userId}`)
