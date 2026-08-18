@@ -41,9 +41,9 @@ function Register({ onToggle, onAuthSuccess }) {
     <form className="auth-form" onSubmit={handleRegister}>
       <div className="auth-branding">
         <img src={logo} alt="Cybersmit logo" className="auth-logo" />
-        <div>
+        <div className="auth-branding-text">
           <h2>Cybersmit Taskit</h2>
-          <p>Your simple task manager<br />Task It, Track It, Tick It -</p>
+          <p>Your simple task manager<br />- Task It, Track It, Tick It -</p>
         </div>
       </div>
       <h3>Register</h3>

@@ -169,11 +169,19 @@ body {
   margin-bottom: 28px;
 }
 
+.auth-branding-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  text-align: center;
+}
+
 .auth-logo {
   width: 60px;
   height: 60px;
   border-radius: 14px;
   box-shadow: 0 12px 30px rgba(15, 118, 110, 0.18);
+  flex-shrink: 0;
 }
 
 .auth-branding h2 {
@@ -181,13 +189,14 @@ body {
   color: #0f766e;
   font-size: 1.5rem;
   letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 
 .auth-branding p {
-  margin: 2px 0 0;
+  margin: 1px 0 0;
   color: #14b8a6;
   font-size: 0.95rem;
-  line-height: 1.5;
+  line-height: 1.4;
   font-weight: 500;
 }
 
