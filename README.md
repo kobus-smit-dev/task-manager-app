@@ -1,6 +1,6 @@
-# Task Manager App
+# Cybersmit Taskit
 
-A modern web application for managing tasks with user authentication and real-time synchronization using React and Firebase.
+Your simple daily task manager - Task it, Track it, Tick it. A modern web application for managing tasks with user authentication and real-time synchronization using React and Firebase.
 
 ## Features
 

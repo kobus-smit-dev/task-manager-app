@@ -57,11 +57,27 @@ body {
   border-radius: 10px;
 }
 
+.brand-title {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
 .app-header h1 {
   color: #0f766e;
   font-size: 1.15rem;
   font-weight: 700;
   letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.brand-tagline {
+  color: #14b8a6;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  margin: 0;
+  opacity: 0.9;
 }
 
 .user-info {
@@ -166,9 +182,10 @@ body {
 
 .auth-branding p {
   margin: 6px 0 0;
-  color: #475569;
+  color: #14b8a6;
   font-size: 0.95rem;
   line-height: 1.5;
+  font-weight: 500;
 }
 
 .auth-form h2,

@@ -65,7 +65,10 @@ function App() {
       <header className="app-header">
         <div className="brand-header">
           <img src="/src/assets/logo.svg" alt="Cybersmit logo" className="brand-logo" />
-          <h1>Cybersmit Task Manager</h1>
+          <div className="brand-title">
+            <h1>Cybersmit TaskIt</h1>
+            <p className="brand-tagline">Your simple task manager - Task It, Track it, Tick it</p>
+          </div>
         </div>
         <div className="user-info">
           <select

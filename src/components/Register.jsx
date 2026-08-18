@@ -41,8 +41,8 @@ function Register({ onToggle, onAuthSuccess }) {
       <div className="auth-branding">
         <img src="/src/assets/logo.svg" alt="Cybersmit logo" className="auth-logo" />
         <div>
-          <h2>Cybersmit Task Manager</h2>
-          <p>Securely manage your tasks in a sleek local demo interface.</p>
+          <h2>Cybersmit Taskit</h2>
+          <p>Your simple daily task manager - Task it, Track it, Tick it</p>
         </div>
       </div>
       <h3>Register</h3>
