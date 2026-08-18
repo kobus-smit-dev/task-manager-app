@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { createUserWithEmailAndPassword } from '../firebase'
+import logo from '../assets/logo.svg'
 
 function Register({ onToggle, onAuthSuccess }) {
   const [email, setEmail] = useState('')
@@ -39,10 +40,10 @@ function Register({ onToggle, onAuthSuccess }) {
   return (
     <form className="auth-form" onSubmit={handleRegister}>
       <div className="auth-branding">
-        <img src="/src/assets/logo.svg" alt="Cybersmit logo" className="auth-logo" />
+        <img src={logo} alt="Cybersmit logo" className="auth-logo" />
         <div>
           <h2>Cybersmit Taskit</h2>
-          <p>Your simple daily task manager - Task it, Track it, Tick it</p>
+          <p>Your simple task manager<br />Task It, Track It, Tick It -</p>
         </div>
       </div>
       <h3>Register</h3>
