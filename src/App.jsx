@@ -4,6 +4,7 @@ import Login from './components/Login'
 import Register from './components/Register'
 import TaskManager from './components/TaskManager'
 import Settings from './components/Settings'
+import logo from './assets/logo.svg'
 import './App.css'
 
 function App() {
@@ -64,7 +65,7 @@ function App() {
     <div className="app-container">
       <header className="app-header">
         <div className="brand-header">
-          <img src="/src/assets/logo.svg" alt="Cybersmit logo" className="brand-logo" />
+          <img src={logo} alt="Cybersmit logo" className="brand-logo" />
           <div className="brand-title">
             <h1>Cybersmit TaskIt</h1>
             <p className="brand-tagline">Your simple task manager - Task It, Track it, Tick it</p>
